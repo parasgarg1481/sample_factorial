@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def sayHello(request):
-    return render(request,'index.html',{'name':'paras'})
+    return render(request,'index.html',{'name':'ritvik'})
 
 def fact(request):
     num = int(request.GET['number'])
